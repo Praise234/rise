@@ -1,0 +1,1 @@
+[06-Jun-2023 10:45:41 UTC] PHP Fatal error:  Can't use method return value in write context in /home/o58hzth2tlf9/public_html/app/Http/Controllers/RiseController.php on line 38
