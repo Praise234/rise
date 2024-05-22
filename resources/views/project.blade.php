@@ -148,7 +148,7 @@
                             <li><a href="{{Route('index')}}">Home</a></li>
                             <li><a href="{{Route('index')}}#about">About</a></li>
                             <li><a href="{{Route('projects')}}">Projects</a></li>
-                            <li><a href="https://www.paypal.com/donate/?hosted_button_id=9MCWTTAHZ73QE">Donate</a></li>
+                            {{-- <li><a href="https://www.paypal.com/donate/?hosted_button_id=9MCWTTAHZ73QE">Donate</a></li> --}}
                             <li><a href="https://shopmpac.com/">Shop</a></li>
                         </ul>
                     </div><!-- end of nav-collapse -->
@@ -247,11 +247,11 @@
                                 <div class="inner-details">
                                     {!! html_entity_decode($project->details) !!}
 
-                                    <div class="donation-form quick-donation-section">
+                                    {{-- <div class="donation-form quick-donation-section">
                                             <div class="donate-btn">
                                                 <a href="https://www.paypal.com/donate/?hosted_button_id=9MCWTTAHZ73QE" class="btn theme-btn" type="submit">Donate</a>
                                             </div>
-                                    </div> <!-- end donation-form -->
+                                    </div> <!-- end donation-form --> --}}
                                 </div> <!-- end inner-details -->
                             </div> <!-- end causes-list-box -->
                         </div> <!-- end causes-single -->

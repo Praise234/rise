@@ -169,7 +169,7 @@
                             <li><a href="{{Route('index')}}#home">Home</a></li>
                             <li><a href="{{Route('index')}}#about">About</a></li>
                             <li><a href="{{Route('projects')}}">Projects</a></li>
-                            <li><a href="https://www.paypal.com/donate/?hosted_button_id=9MCWTTAHZ73QE">Donate</a></li>
+                            {{-- <li><a href="https://www.paypal.com/donate/?hosted_button_id=9MCWTTAHZ73QE">Donate</a></li> --}}
                             <li><a href="https://shopmpac.com/">Shop</a></li>
                         </ul>
                     </div><!-- end of nav-collapse -->
@@ -380,9 +380,9 @@
                             </div>
                             <div class="causes-details">
                                
-                                <a href="https://www.paypal.com/donate/?hosted_button_id=9MCWTTAHZ73QE" class="btn theme-btn-s3">Donate</a>
+                                {{-- <a href="https://www.paypal.com/donate/?hosted_button_id=9MCWTTAHZ73QE" class="btn theme-btn-s3">Donate</a> --}}
                                
-                                <div class="share-button sharer" style="display: inline; float:right;">
+                                <div class="share-button sharer" style="display: inline; float:right; margin-top:-50px;">
                                     <button type="button" class="btn theme-btn-s3 share-btn">Share</button>
                                     <div class="social top center networks-5 ">
                                         <!-- Facebook Share Button -->
@@ -421,7 +421,7 @@
       @endif
       @if(session('success'))
         <div class="alert alert-success alert-dismissible">
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></buttodonaten>
           {{session('success')}}
         </div>
       @endif
@@ -707,7 +707,7 @@
                 </div> <!-- end section-title -->
         
                 <div class="row charity-categories-section-grids">
-                    <div class="col col-md-3 col-sm-6">
+                    {{-- <div class="col col-md-3 col-sm-6">
                         <div class="grid" id="grid">
                             <div class="icon">
                                 
@@ -719,8 +719,8 @@
                                 <a href="https://www.paypal.com/donate/?hosted_button_id=9MCWTTAHZ73QE" class="details">Donate</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col col-md-3 col-sm-6">
+                    </div> --}}
+                    <div class="col col-md-4 col-sm-6">
                         <div class="grid" id="grid">
                             <div class="icon">
                                 <!--<i class="glyphicon glyphicon-shopping-cart"></i>-->
@@ -732,7 +732,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-md-3 col-sm-6">
+                    <div class="col col-md-4 col-sm-6">
                         <div class="grid" id="grid">
                             <div class="icon">
                                 <!--<i class="glyphicon glyphicon-heart"></i>-->
@@ -744,12 +744,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-md-3 col-sm-6">
-                        <div class="grid" id="grid">
+                    <div class="col col-md-4 col-sm-6">
+                        <div class="grid" id="grid"  >
                             <div class="icon">
                                 <!--<i class="glyphicon glyphicon-book"></i>-->
                             </div>
-                            <div class="info">
+                            <div class="info" >
                                 <h3><a href="/projects">Learn</a></h3>
                                 <p>Donate, volunteer, or reach out to us to learn more about how you can make a difference.</p>
                                 <a href="/projects" class="details">Learn Now</a>

@@ -13,7 +13,7 @@ use PHPMailer\PHPMailer\Exception;
 class RiseController extends Controller
 {
     public function index(){
-        $projects = Projects::limit(3)->get();
+        $projects = Projects::limit(4)->get();
         $image_gallerys = ImageGallery::get();
         return view('welcome', compact(['projects', 'image_gallerys']));
     }
